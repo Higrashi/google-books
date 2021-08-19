@@ -1,5 +1,6 @@
 # Установка
 npm install
+#
 Так же нужно создать .env файл и добаивть туда REACT_APP_GOOGLE_API_KEY=, где '' api ключ 
 # Запуск
 npm start
