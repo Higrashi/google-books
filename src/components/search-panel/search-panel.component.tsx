@@ -36,6 +36,8 @@ const SearchPanel: React.FC<PanelProps> = ({activateSpinner, setTotalCount}) => 
             if(data.items) {
                 setTotalCount(data.totalItems)
                 dispatch(setCurrentBooks(data.items))
+            } else {
+                setTotalCount(0)
             }
             activateSpinner(false)
         })

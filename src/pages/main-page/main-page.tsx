@@ -53,7 +53,7 @@ const MainPage = () => {
                      return <Link to={`/${book.id}`}
                             style={{textDecoration: 'none',
                             color: 'black'}}>
-                            <BookCard book={book} />
+                            <BookCard key={book.id} book={book} />
                          </Link> 
                  }) : null 
              }           
