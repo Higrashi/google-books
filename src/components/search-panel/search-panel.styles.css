@@ -1,0 +1,65 @@
+.panel {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(66, 57, 57);
+}
+
+.panel form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.panel input[type='text'] {
+    padding: 10px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Sora', sans-serif;
+}
+
+.panel input[type='submit'] {
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Sora', sans-serif;
+}
+
+.panel input[type='submit']:hover {
+    background-color: lightgrey;
+}
+
+.panel select {
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Sora', sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+    .panel input[type='text'] {
+        width: 70%;
+    }
+
+    .panel input[type='submit'] {
+        width: 70%;
+    }
+
+    .select-container {
+        width: 90%;
+    }
+    
+    .panel select {
+        width: 40%;
+    }
+}

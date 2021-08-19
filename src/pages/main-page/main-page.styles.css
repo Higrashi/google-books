@@ -1,0 +1,38 @@
+.main-page {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-page button  {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid lightgrey;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 200px;
+    cursor: pointer;
+}
+
+.cards-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;   
+}
+
+.spinner {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px;
+    background-color: none;
+}
+
+.total-count-container {
+    padding: 20px 0px;
+}

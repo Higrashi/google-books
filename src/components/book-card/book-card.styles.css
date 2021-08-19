@@ -1,0 +1,26 @@
+.book-card {
+    width: 250px;
+    height: 350px;
+    border: 1px solid lightgrey;
+    background-color: rgb(228, 228, 228);
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+
+.book-card p {
+    margin: 0;
+}
+
+.card-img-container {
+    width: 100%;
+}
+
+.card-img-container {
+    
+}
+
+.card-img-container img {
+   height: 200px;
+}
