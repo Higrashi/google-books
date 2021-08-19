@@ -5,6 +5,6 @@ npm install
 # Запуск
 npm start
 #
-Протестировал коомпоненты с помощью React Testing Library
+Протестировал компоненты с помощью React Testing Library
 #
 Результат => https://books-962eb.web.app/
